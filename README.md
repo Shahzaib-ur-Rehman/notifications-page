@@ -18,7 +18,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Shahzaib-ur-Rehman/notifications-page)
-- Live Site URL: [notifications-page](https://your-live-site-url.com)
+- Live Site URL: [notifications-page](https://notifications-page-flax.vercel.app/)
 
 ## My process
 
