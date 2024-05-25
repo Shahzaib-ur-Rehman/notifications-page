@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js" defer></script>
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    <main>
+      <section class="notifications">
+        <div class="notifications__header">
+          <h1 class="title">Notifications <span class="badge">3</span></h1>
+          <button id="markAsReadBtn" class="btn-secondary">Mark all as read</button>
+        </div>
+        <div class="notications--details">
+          <ul class="notications__list">
+            <li class="notications__list--item unread-noticiations">
+              <img
+                class="userImage"
+                src="./assets/images/avatar-mark-webber.webp"
+                alt="Mark Webber"
+              />
+              <div class="content">
+                <div >
+                  <p class="unread-noticiations-icon">
+                    <a href="" class="username">Mark Webber</a>
+                    reacted to your recent post
+                    <a href="" class="postLink"> My first tournament today!</a>
+                  </p>
+                  <p>1m ago</p>
+                </div>
+              </div>
+            </li>
+            <li class="notications__list--item unread-noticiations">
+              <img
+                class="userImage"
+                src="./assets/images/avatar-angela-gray.webp"
+                alt="Angela Gray"
+              />
+              <div class="content">
+                <div>
+                  <p class="unread-noticiations-icon">
+                    <a href="" class="username">Angela Gray</a>
+                    followed you
+                    <!-- <img src="./assets/images/favicon-32x32.png" alt="" /> -->
+                  </p>
+                  <p>5m ago</p>
+                </div>
+              </div>
+            </li>
+            <li class="notications__list--item unread-noticiations" >
+              <img
+                class="userImage"
+                src="./assets/images/avatar-jacob-thompson.webp"
+                alt="Jacob Thompson"
+              />
+              <div class="content">
+                <div>
+                  <p class="unread-noticiations-icon">
+                    <a href="" class="username">Jacob Thompson</a>
+                    has joined your group
+                    <a href="" class="groupLink"> Chess Club</a>
+                    <!-- <img src="./assets/images/image-chess.webp" alt="" /> -->
+                  </p>
+                  <p>1 day ago</p>
+                </div>
+              </div>
+            </li>
+            <li class="notications__list--item">
+              <img
+                class="userImage"
+                src="./assets/images/avatar-rizky-hasanuddin.webp"
+                alt="Rizky Hasanuddin"
+              />
+              <div class="content">
+                <div class="grid w-100">
+                  <p>
+                    <a href="" class="username">Rizky Hasanuddin </a>
+                    sent you a private message
+                  </p>
+                  <p>5 days ago</p>
+                  <textarea readonly wrap="on"  rows="6" class="messageBox" name="message" id="message">
+                  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and  I'm already having lots of fun and improving my game.
+                </textarea
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="notications__list--item">
+              <img
+                class="userImage"
+                src="./assets/images/avatar-kimberly-smith.webp"
+                alt="Kimberly Smith"
+              />
+              <div class="content">
+                <div class="">
+                  <p>
+                    <a href="" class="username">Kimberly Smith </a>
+                    commented on your picture
+                  </p>
+                  <p>1 week ago</p>
+                </div>
+                <img
+                  src="./assets/images/image-chess.webp"
+                  class="userImage"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="notications__list--item">
+              <img
+                class="userImage"
+                src="./assets/images/avatar-nathan-peterson.webp"
+                alt="Nathan Peterson"
+              />
+              <div class="content">
+                <div>
+                  <p>
+                    <a href="" class="username"> Nathan Peterson </a>
+                    reacted to your recent post
+                    <a href="" class="postLink">
+                      5 end-game strategies to increase your win rate</a
+                    >
+                  </p>
+                  <p>2 weeks ago</p>
+                </div>
+              </div>
+            </li>
+            <li class="notications__list--item">
+              <img
+                class="userImage"
+                src="./assets/images/avatar-anna-kim.webp"
+                alt="Anna Kim"
+              />
+              <div class="content">
+                <div>
+                  <p>
+                    <a href="" class="username"> Anna Kim </a>
+                    left the group
+                    <a href="" class="groupLink">Chess Club</a>
+                  </p>
+                  <p>2 weeks ago</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
